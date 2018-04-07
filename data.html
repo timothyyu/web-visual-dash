@@ -20,7 +20,7 @@
 
   <body>
 
-    <!-- Navigation -->
+     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Weather Analysis Dashboard</a>
@@ -37,15 +37,14 @@
             </li>
 
              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">Plots/Visualizations</a>
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Plots/Visualizations</a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="visual/temp.html">Clouds</a>
                     <a class="dropdown-item" href="visual/humidity.html">Humidity</a>
-                    <a class="dropdown-item" href="visual/clouds.html">Max Temperature</a>
+                    <a class="dropdown-item" href="visual/temp.html">Max Temperature</a>
                     <a class="dropdown-item" href="visual/wind.html">Wind</a>
                   </div>
                 </li>
-
             <li class="nav-item">
               <a class="nav-link" href="comparisons.html">Comparisons</a>
             </li>
@@ -67,14 +66,22 @@
             <div class="box">
     <h3>Raw Data</h3>         
     <hr>
+
     <p>Table of scraped data used for this project, converted from .csv format to HTML.</p>
 
+    <p><a href="https://github.com/timothyyu/weatherpy">
+    Source Project Repository for Analysis (Weatherpy)</a></p>
+    <hr>
 
 <!-- http://www.convertcsv.com/csv-to-html.htm
  -->
- <!-- Reponsive table created from .csv for data page -->
-		<table class="table table-bordered table-hover table-condensed">
-		<thead><tr><th title="Field #1">City</th>
+ <!-- Reponsive table created from .csv for data page 
+ https://getbootstrap.com/docs/4.0/content/tables/
+-->
+	
+		<table class="table-sm table-responsive table-bordered table-hover table-condensed table-striped">
+
+		<thead><tr><th title="Field #1">city</th>
 		<th title="Field #2">name</th>
 		<th title="Field #3">sys.country</th>
 		<th title="Field #4">coord.lat</th>
@@ -12185,10 +12192,11 @@
 		<td align="right">80</td>
 		</tr>
 		</tbody></table>
-
+					
 			</div>
 		</div>
 </div>
+
 
 
  <!-- Footer -->

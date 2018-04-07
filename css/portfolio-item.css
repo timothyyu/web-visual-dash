@@ -5,8 +5,13 @@
  */
 
 body {
-  padding-top: 54px;
+  padding-top: 70px;
 }
+
+.box{
+    margin-top: 70px;
+    padding: 10px 10px 10px 10px;
+    background-color: #f8f8f8;
 
 @media (min-width: 992px) {
   body {

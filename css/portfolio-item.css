@@ -13,8 +13,8 @@ body {
     padding: 10px 10px 10px 10px;
     background-color: #f8f8f8;
 
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
   body {
-    padding-top: 56px;
+    padding-top: 20px;
   }
 }
